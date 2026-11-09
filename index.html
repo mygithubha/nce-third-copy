@@ -113,6 +113,11 @@
 
         <section class="control-panel" aria-label="课程与播放控制区">
           <div class="navigation-buttons">
+            <div class="translation-mode-stack" aria-label="听力训练模式换挡">
+              <button id="prevTranslationModeBtn" class="translation-mode-step-btn" type="button" aria-label="上一个听力训练模式" title="上一档：糊英 ← 糊中 ← 糊">▲</button>
+              <button id="toggleTranslationBtn" class="toggle-translation-btn" type="button" aria-label="切换听力训练模式" title="糊 → 糊中 → 糊英">糊</button>
+              <button id="nextTranslationModeBtn" class="translation-mode-step-btn" type="button" aria-label="下一个听力训练模式" title="下一档：糊 → 糊中 → 糊英">▼</button>
+            </div>
             <button id="prevUnitBtn" class="nav-btn prev-btn" type="button" title="上一课" aria-label="上一课">
               <svg width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true">
                 <path d="M12 16L7 11L12 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -130,11 +135,7 @@
                       stroke-linejoin="round" />
               </svg>
             </button>
-            <div class="translation-mode-stack" aria-label="听力训练模式换挡">
-              <button id="prevTranslationModeBtn" class="translation-mode-step-btn" type="button" aria-label="上一个听力训练模式" title="上一档：糊英 ← 糊中 ← 糊">▲</button>
-              <button id="toggleTranslationBtn" class="toggle-translation-btn" type="button" aria-label="切换听力训练模式" title="糊 → 糊中 → 糊英">糊</button>
-              <button id="nextTranslationModeBtn" class="translation-mode-step-btn" type="button" aria-label="下一个听力训练模式" title="下一档：糊 → 糊中 → 糊英">▼</button>
-            </div>
+
             <button id="toggleOtherTranslationBtn" class="toggle-translation-btn other-translation-btn" type="button" aria-label="切换双语及其他模式" title="双语 → 仅英文 → 仅中文 → 双语模糊">
               其他
             </button>

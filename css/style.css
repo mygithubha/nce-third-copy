@@ -626,7 +626,7 @@ body.dark-theme .moon-icon {
   display: flex;
   align-items: center;
   gap: 8px;
-  margin-top: 6px;
+  margin-top: 28px;
 }
 
 #audioPlayer {
@@ -1329,7 +1329,7 @@ body::-webkit-scrollbar-thumb:hover,
 
   .audio-player {
     gap: 6px;
-    margin-top: 6px;
+    margin-top: 28px;
   }
 
   .play-btn {
